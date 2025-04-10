@@ -20,9 +20,9 @@ api側を外部インターフェースに見立てる。
 ** 起動時
 ・Gitから必要ソースを落とし込んだ後に下記コマンドを実施
 ※[node_modules]及び[vendor]の中身が大容量のためmount実施。
-→ docker-compose up -d --build ※初回ビルド込みで実施
-→ docker-compose up -d
+→ docker compose up -d --build ※初回ビルド込みで実施
+→ docker compose up -d
 
 ・Viteを実行。Vite側で設定を付与しているためVuejs側の処理も起動。フロント込みの動作確認が実施できる。
-→ docker-compose exec web-front npm run dev
+→ docker compose exec web-front npm run dev
 
