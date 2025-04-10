@@ -36,7 +36,7 @@ services:
     build: ./docker/python
     # 繋げるポート番号を指定
     ports:
-    - 5001:80
+    - 8080:8080
     depends_on:
     - web-front
     # 連携するディレクトリを指定
