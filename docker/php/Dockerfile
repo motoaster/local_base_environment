@@ -39,4 +39,4 @@ ADD . /src/storage
 RUN chown -R www-data:www-data /src/storage
 
 # Node及びConpose実施, Vueインストール実施
-ENTRYPOINT [ "bash", "-c", "composer install; npm install; exec php-fpm; npm install vue @vitejs/plugin-vue; npm run build" ]
+ENTRYPOINT [ "bash", "-c", "composer install; npm install; exec php-fpm; npm install vue @vitejs/plugin-vue; npm run build;"]
