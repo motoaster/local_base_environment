@@ -1,4 +1,4 @@
-# local_test
+# local_base_environment
 
 ## /docker ディレクトリ
 DockerFile 関連格納
